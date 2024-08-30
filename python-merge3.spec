@@ -2,7 +2,7 @@
 %define debug_package %nil
 
 Name:             python-%{pypi_name}
-Version:          0.0.14
+Version:          0.0.15
 Release:          1
 
 Summary:          Python implementation of 3-way merge of texts
