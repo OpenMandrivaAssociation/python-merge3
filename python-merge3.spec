@@ -3,7 +3,7 @@
 
 Name:             python-%{pypi_name}
 Version:          0.0.15
-Release:          1
+Release:          2
 
 Summary:          Python implementation of 3-way merge of texts
 License:          BSD
