@@ -3,7 +3,7 @@
 
 Name:		python-merge3
 Version:	0.0.16
-Release:	1
+Release:	2
 Summary:	Python implementation of 3-way merge of texts
 License:	GPL-2.0-or-later
 Group:		Development/Python
@@ -24,6 +24,10 @@ Given BASE, OTHER, THIS, tries to produce a combined text
 incorporating the changes from both BASE->OTHER and BASE->THIS.
 
 All three will typically be sequences of lines.
+
+%build -p
+# The sdist is not a git checkout, so the versioning backend needs the version.
+export SETUPTOOLS_SCM_PRETEND_VERSION=%{version}
 
 %files
 %doc README.rst
